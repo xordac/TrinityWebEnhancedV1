@@ -1,9 +1,10 @@
 <?php
 /****************************************************************************/
-/*  						< MangosWeb v4 >  								*/
-/*              Copyright (C) <2017> <Mistvale.com>   		                */
-/*					  < http://www.mistvale.com >							*/
+/*  						< Emerald Sanctum >  							*/
+/*              Copyright (C) <2018> <emeraldsanctum.com>   		        */
+/*					  < https://emeraldsanctum.com >					 	*/
 /*																			*/
+/*			Origional MangosWeb v4 (C) 2017 Mistvale.com					*/
 /*			Original MangosWeb Enhanced (C) 2010-2011 KeysWow				*/
 /*			Original MangosWeb (C) 2007, Sasha, Nafe, TGM, Peec				*/
 /****************************************************************************/
@@ -16,16 +17,16 @@ ini_set('log_errors', TRUE);
 ini_set('html_errors', FALSE);
 ini_set('display_errors', TRUE);
 
-if(file_exists("install/index.php"))
-{
-	// Check if the install/ directorcy exists, redirect if so
-	header("location: install/");
-}
-elseif(file_exists("update/index.php"))
-{
-	// Check if the update/ directorcy exists, redirect if so
-	header("location: update/");
-}
+// if(file_exists("install/index.php"))
+// {
+// 	// Check if the install/ directorcy exists, redirect if so
+// 	header("location: install/");
+// }
+// elseif(file_exists("update/index.php"))
+// {
+// 	// Check if the update/ directorcy exists, redirect if so
+// 	header("location: update/");
+// }
 
 /***************************************************************
  * Define INCLUDED so we can see if pages are included by this one

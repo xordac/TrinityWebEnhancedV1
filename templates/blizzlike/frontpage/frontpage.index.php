@@ -27,13 +27,13 @@
 		{ ?>
 			<div id="flashcontainer">
 				<br /><br /><br /><br />
-				<center><img src="<?php echo $Template['path']; ?>/images/banner.jpg" alt="" width="470"/></center>
+				<center><img src="<?php echo $Template['path']; ?>/images/bannerkarazhan.gif" alt="Banner Image" width="485" style="margin-left: 5px;margin-top: 7px;"/></center>
 			</div>
 			<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 		<?php 
 		} ?>
 	</div>
-	<div class="module-container" style="position: relative;">
+	<div class="module-container" style="position: relative; margin-top: -35px;">
 	<?php
 		if($alltopics != FALSE)
 		{
@@ -143,21 +143,32 @@
 			</div>
 			<div class="phatlootbox-wrapper">
 				<div style="background: url(<?php echo $Template['path']; ?>/images/phatlootbox-top-parchment.jpg) repeat-y top right; height: 7px; width: 456px; margin-left: 6px; font-size: 1px;"></div>
-				<div class="community-cnt"><font size="-1"><?php echo $lang['community_header1'];?></font>
+				<div class="community-cnt"> <font size="-1"><center><h1>◄~ Server Rates ~►</h1></center></font>
+				<center><div style='align:middle; display:inline;'>
+				<br> <font color='red' size='2'>
+				<li>Instant-70</li>
+				<li>Cross-faction interaction.</li> 
+				<li>iLevel 115 Blue Dungeon Starter Gear.</li>
+				<li>Mall to help teleport, tame Hunter pets, etc.</li>
+				<li>Custom or lore-breaking items do <bold><u>not</u></bold> exist.</li></font>
+				<h2><br>[Gold]:  <font color='white'>1x</font> <br>
+[Professions & Gathering]: <font color='red'>10x</font><br>
+[Reputations]: <font color='yellow'>3x</font><br>
+[Drops]: <font color='green'>2x</font><br>
+[Quest Item Drops]: <font color='yellow'>3x</font><br>
+[Honor]: <font color='green'>2x</font><br>
+[Arena Points]: <font color='white'>1x</font>
+				</div></h2></center>
+				
+				
 					<br /><br />
 					<font size="-1">
-					<center>
-						<a href="http://thottbot.com/">
-							<img src="<?php echo $Template['path']; ?>/images/thottbot.png" width="100" height="75" longdesc="http://thottbot.com/" />
-						</a>
-						<a href="http://www.wowhead.com/">
-							<img src="<?php echo $Template['path']; ?>/images/wowhead.png" width="120" height="78" />
-						</a>
-						<a href="http://www.wowwiki.com/Portal:Main">
-							<img src="<?php echo $Template['path']; ?>/images/wowwiki.png" width="152" height="35" /></a><a href="http://www.wowhead.com/">
-						</a>
+						<!-- <center>
+						<a href="http://wowwiki.wikia.com/wiki/Portal:World_of_Warcraft">
+							<img src="<?php echo $Template['path']; ?>/images/wowwiki.png" width="152" height="35" /></a><a href="http://wowwiki.wikia.com/wiki/Portal:World_of_Warcraft">
+						</a> -->
 					</center>
-					<br /><?php echo $lang['community_header2'];?>
+					<br /><?php /* echo $lang['community_header2'];*/?>
 					</font>
 				</div>
 				<div class="phatlootbox-bottom"></div>
@@ -177,14 +188,14 @@
 					<tr>
 						<td width="50%">
 							<div align="center" style="position:relative; top:1px; left:0px;">
-								<a href="<?php echo $mwe_config['site_forums']; ?>">
+								<a href="<?php echo $mwe_config['site_forums']; ?>viewforum.php?f=5&sid=6f96a4ca4abd000203623efdf2d5dd09">
 									<img src="<?php echo $Template['path']; ?>/images/box-support.gif" width="226" height="93" />
 								</a>
 							</div>
 						</td>
 						<td width="50%">
 							<div align="center">
-								<a href="<?php echo $mwe_config['site_forums']; ?>">
+								<a href="<?php echo $mwe_config['site_forums']; ?>viewtopic.php?f=48&t=12&sid=6f96a4ca4abd000203623efdf2d5dd09">
 									<img src="<?php echo $Template['path']; ?>/images/box-jobs.gif" width="226" height="93" />
 								</a>
 							</div>

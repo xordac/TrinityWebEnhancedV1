@@ -11,10 +11,12 @@
 ?>
 <!-- QuickLinks -->
 <div id="q-links">
-	<h3><?php echo $lang['quicklinks'];?></h3>
+	<!-- Title Bar Quick Links -->
+	<h3><!-- <?php echo $lang['quicklinks'];?> --></h3>
+	
 	<ul>
 		<li>
-			<a href="<?php echo mw_url('account', 'manage'); ?>"><?php echo $lang['account_manage']; ?></a>
+			<a href="<?php echo mw_url('account'); ?>"><?php echo $lang['account_manage']; ?></a>
 		</li>
 		<li class="e">
 			<a href="<?php echo mw_url('account', 'register'); ?>"><?php echo $lang['account_create']; ?></a>
@@ -23,15 +25,16 @@
 			<a href="<?php echo mw_url('server', 'realmstatus'); ?>"><?php echo $lang['realmstatus']; ?></a>
 		</li>
 		<li class="e">
-			<a href="<?php echo mw_url('support', 'faq'); ?>"><?php echo $lang['faq']; ?></a>
+			<a href="<?php echo mw_url('server', 'statistic'); ?>"><?php echo $lang['statistic']; ?></a>
 		</li>
 		<li>
 			<a href="<?php echo mw_url('support', 'howtoplay'); ?>"><?php echo $lang['howtoplay']; ?></a>
 		</li>
 		<li class="e">
-			<a href="<?php echo mw_url('server', 'commands'); ?>"><?php echo $lang['ingame_commands']; ?></a>
+			<a href="<?php echo mw_url('support', 'faq'); ?>"><?php echo $lang['faq']; ?></a>
 		</li>
 	</ul>
+
 </div>
 <span class="gfxhook"></span>
 <hr>
@@ -110,7 +113,7 @@ if ($mwe_config['fp_newbie_guide'] == 1)
 	</div>
 <?php 
 } 
-if(isset($usersonhomepage) || isset($hits))
+if(isset($usersonhomepage) && isset($hits))
 { 
 ?>
 <!-- usersonhomepage -->
@@ -286,3 +289,6 @@ if(isset($servers))
 <?php 	} 
 	}
 }?>
+	<div id="discord">
+		<p>&nbsp;&nbsp;<iframe src="https://discordapp.com/widget?id=314109026428387329&theme=dark" width="300" height="500" allowtransparency="true" frameborder="0"></iframe></p>
+	</div>

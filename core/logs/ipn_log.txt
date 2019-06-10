@@ -1,0 +1,627 @@
+
+2018-09-28 12:03:46 : --- Start Transaction ---<br />
+2018-09-28 12:03:46 : 100.00<br />
+2018-09-28 12:03:46 : Ineligible<br />
+2018-09-28 12:03:46 : confirmed<br />
+2018-09-28 12:03:46 : 2Z3GSM7RLCTAU<br />
+2018-09-28 12:03:46 : 0.00<br />
+2018-09-28 12:03:46 : 1 Main St<br />
+2018-09-28 12:03:46 : 03:03:40 Sep 28, 2018 PDT<br />
+2018-09-28 12:03:46 : Pending<br />
+2018-09-28 12:03:46 : windows-1252<br />
+2018-09-28 12:03:46 : 95131<br />
+2018-09-28 12:03:46 : Test<br />
+2018-09-28 12:03:46 : US<br />
+2018-09-28 12:03:46 : Test Test<br />
+2018-09-28 12:03:46 : 3.9<br />
+2018-09-28 12:03:46 : <br />
+2018-09-28 12:03:46 : unverified<br />
+2018-09-28 12:03:46 : United States<br />
+2018-09-28 12:03:46 : San Jose<br />
+2018-09-28 12:03:46 : 0<br />
+2018-09-28 12:03:46 : A-q1ypYu4wm53AQaCxbLipcxX2q9AqfxRqWiVZAU6N2oK.SNRcP43tXJ<br />
+2018-09-28 12:03:46 : test@emeraldsanctum.com<br />
+2018-09-28 12:03:46 : 9HE967694E453343C<br />
+2018-09-28 12:03:46 : instant<br />
+2018-09-28 12:03:46 : Test<br />
+2018-09-28 12:03:46 : CA<br />
+2018-09-28 12:03:46 : warchief@emeraldsanctum.com<br />
+2018-09-28 12:03:46 : unilateral<br />
+2018-09-28 12:03:46 : web_accept<br />
+2018-09-28 12:03:46 : 1500 Web Points --- Account: WARCHIEF(#2)<br />
+2018-09-28 12:03:46 : USD<br />
+2018-09-28 12:03:46 : 5<br />
+2018-09-28 12:03:46 : US<br />
+2018-09-28 12:03:46 : 1<br />
+2018-09-28 12:03:46 : <br />
+2018-09-28 12:03:46 : 100.00<br />
+2018-09-28 12:03:46 : 8abfe1ce7cc8e<br />
+2018-09-28 12:03:46 : --- End Transaction ---<br />
+2018-09-28 12:03:46 : <br />
+2018-09-28 12:08:42 : --- Start Transaction ---<br />
+2018-09-28 12:08:42 : instant<br />
+2018-09-28 12:08:42 : Fri Sep 28 2018 05:08:21 GMT-0500 (Central Daylight Time)<br />
+2018-09-28 12:08:42 : Completed<br />
+2018-09-28 12:08:42 : confirmed<br />
+2018-09-28 12:08:42 : verified<br />
+2018-09-28 12:08:42 : John<br />
+2018-09-28 12:08:42 : Smith<br />
+2018-09-28 12:08:42 : buyer@paypalsandbox.com<br />
+2018-09-28 12:08:42 : TESTBUYERID01<br />
+2018-09-28 12:08:42 : John Smith<br />
+2018-09-28 12:08:42 : United States<br />
+2018-09-28 12:08:42 : US<br />
+2018-09-28 12:08:42 : 95131<br />
+2018-09-28 12:08:42 : CA<br />
+2018-09-28 12:08:42 : San Jose<br />
+2018-09-28 12:08:42 : 123 any street<br />
+2018-09-28 12:08:42 : seller@paypalsandbox.com<br />
+2018-09-28 12:08:42 : seller@paypalsandbox.com<br />
+2018-09-28 12:08:42 : seller@paypalsandbox.com<br />
+2018-09-28 12:08:42 : US<br />
+2018-09-28 12:08:42 : something<br />
+2018-09-28 12:08:42 : AK-1234<br />
+2018-09-28 12:08:42 : 1<br />
+2018-09-28 12:08:42 : 3.04<br />
+2018-09-28 12:08:42 : 2.02<br />
+2018-09-28 12:08:42 : USD<br />
+2018-09-28 12:08:42 : 0.44<br />
+2018-09-28 12:08:42 : 12.34<br />
+2018-09-28 12:08:42 : 9.34<br />
+2018-09-28 12:08:42 : web_accept<br />
+2018-09-28 12:08:42 : 969581163<br />
+2018-09-28 12:08:42 : 2.1<br />
+2018-09-28 12:08:42 : xyz123<br />
+2018-09-28 12:08:42 : abc1234<br />
+2018-09-28 12:08:42 : 1<br />
+2018-09-28 12:08:42 : AfDdcDwGFNNl9YX8sk3Oq5l8Xr6pAB0xb9yayS3cEuLKcMjpbbsOYVVH<br />
+2018-09-28 12:08:42 : --- End Transaction ---<br />
+2018-09-28 12:08:42 : <br />
+2018-09-28 12:11:17 : --- Start Transaction ---<br />
+2018-09-28 12:11:17 : echeck<br />
+2018-09-28 12:11:17 : Fri Sep 28 2018 05:11:01 GMT-0500 (Central Daylight Time)<br />
+2018-09-28 12:11:17 : Completed<br />
+2018-09-28 12:11:17 : confirmed<br />
+2018-09-28 12:11:17 : verified<br />
+2018-09-28 12:11:17 : John<br />
+2018-09-28 12:11:17 : Smith<br />
+2018-09-28 12:11:17 : buyer@paypalsandbox.com<br />
+2018-09-28 12:11:17 : TESTBUYERID01<br />
+2018-09-28 12:11:17 : John Smith<br />
+2018-09-28 12:11:17 : United States<br />
+2018-09-28 12:11:17 : US<br />
+2018-09-28 12:11:17 : 95131<br />
+2018-09-28 12:11:17 : CA<br />
+2018-09-28 12:11:17 : San Jose<br />
+2018-09-28 12:11:17 : 123 any street<br />
+2018-09-28 12:11:17 : seller@paypalsandbox.com<br />
+2018-09-28 12:11:17 : seller@paypalsandbox.com<br />
+2018-09-28 12:11:17 : seller@paypalsandbox.com<br />
+2018-09-28 12:11:17 : US<br />
+2018-09-28 12:11:17 : something<br />
+2018-09-28 12:11:17 : AK-1234<br />
+2018-09-28 12:11:17 : 1<br />
+2018-09-28 12:11:17 : 3.04<br />
+2018-09-28 12:11:17 : 2.02<br />
+2018-09-28 12:11:17 : USD<br />
+2018-09-28 12:11:17 : 0.44<br />
+2018-09-28 12:11:17 : 12.34<br />
+2018-09-28 12:11:17 : 12.34<br />
+2018-09-28 12:11:17 : web_accept<br />
+2018-09-28 12:11:17 : 155794239<br />
+2018-09-28 12:11:17 : 2.1<br />
+2018-09-28 12:11:17 : xyz123<br />
+2018-09-28 12:11:17 : abc1234<br />
+2018-09-28 12:11:17 : 1<br />
+2018-09-28 12:11:17 : AXl15mWr.PGF-aZheGpZoLwRHc3cAs3uXT2247d2rpclNfqtpoioslR1<br />
+2018-09-28 12:11:17 : --- End Transaction ---<br />
+2018-09-28 12:11:17 : <br />
+2018-09-28 12:21:16 : --- Start Transaction ---<br />
+2018-09-28 12:21:16 : 100.00<br />
+2018-09-28 12:21:16 : Ineligible<br />
+2018-09-28 12:21:16 : confirmed<br />
+2018-09-28 12:21:16 : SCCUM6KBJC946<br />
+2018-09-28 12:21:16 : 0.00<br />
+2018-09-28 12:21:16 : 1 Main St<br />
+2018-09-28 12:21:16 : 03:21:10 Sep 28, 2018 PDT<br />
+2018-09-28 12:21:16 : Pending<br />
+2018-09-28 12:21:16 : windows-1252<br />
+2018-09-28 12:21:16 : 95131<br />
+2018-09-28 12:21:16 : test<br />
+2018-09-28 12:21:16 : US<br />
+2018-09-28 12:21:16 : test buyer<br />
+2018-09-28 12:21:16 : 3.9<br />
+2018-09-28 12:21:16 : <br />
+2018-09-28 12:21:16 : verified<br />
+2018-09-28 12:21:16 : United States<br />
+2018-09-28 12:21:16 : San Jose<br />
+2018-09-28 12:21:16 : 0<br />
+2018-09-28 12:21:16 : AIls.0ayavTd.bLosRxHvtPQWk8-AyUjgWOZuI39xOPAs6nm4b10IYTu<br />
+2018-09-28 12:21:16 : warchief-buyer@emeraldsanctum.com<br />
+2018-09-28 12:21:16 : 55Y28813L8146520U<br />
+2018-09-28 12:21:16 : instant<br />
+2018-09-28 12:21:16 : buyer<br />
+2018-09-28 12:21:16 : CA<br />
+2018-09-28 12:21:16 : warchief@emeraldsanctum.com<br />
+2018-09-28 12:21:16 : unilateral<br />
+2018-09-28 12:21:16 : web_accept<br />
+2018-09-28 12:21:16 : 1500 Web Points --- Account: WARCHIEF(#2)<br />
+2018-09-28 12:21:16 : USD<br />
+2018-09-28 12:21:16 : 5<br />
+2018-09-28 12:21:16 : US<br />
+2018-09-28 12:21:16 : 1<br />
+2018-09-28 12:21:16 : <br />
+2018-09-28 12:21:16 : 100.00<br />
+2018-09-28 12:21:16 : 544fde82fcd4<br />
+2018-09-28 12:21:16 : --- End Transaction ---<br />
+2018-09-28 12:21:16 : <br />
+2018-09-28 12:24:30 : --- Start Transaction ---<br />
+2018-09-28 12:24:30 : instant<br />
+2018-09-28 12:24:30 : Fri Sep 28 2018 05:24:07 GMT-0500 (Central Daylight Time)<br />
+2018-09-28 12:24:30 : Completed<br />
+2018-09-28 12:24:30 : verified<br />
+2018-09-28 12:24:30 : John<br />
+2018-09-28 12:24:30 : Smith<br />
+2018-09-28 12:24:30 : buyer@paypalsandbox.com<br />
+2018-09-28 12:24:30 : TESTBUYERID01<br />
+2018-09-28 12:24:30 : John Smith<br />
+2018-09-28 12:24:30 : United States<br />
+2018-09-28 12:24:30 : US<br />
+2018-09-28 12:24:30 : 95131<br />
+2018-09-28 12:24:30 : CA<br />
+2018-09-28 12:24:30 : San Jose<br />
+2018-09-28 12:24:30 : 123 any street<br />
+2018-09-28 12:24:30 : seller@paypalsandbox.com<br />
+2018-09-28 12:24:30 : seller@paypalsandbox.com<br />
+2018-09-28 12:24:30 : seller@paypalsandbox.com<br />
+2018-09-28 12:24:30 : US<br />
+2018-09-28 12:24:30 : something<br />
+2018-09-28 12:24:30 : AK-1234<br />
+2018-09-28 12:24:30 : 1<br />
+2018-09-28 12:24:30 : 3.04<br />
+2018-09-28 12:24:30 : 2.02<br />
+2018-09-28 12:24:30 : USD<br />
+2018-09-28 12:24:30 : 0.44<br />
+2018-09-28 12:24:30 : 12.34<br />
+2018-09-28 12:24:30 : 12.34<br />
+2018-09-28 12:24:30 : 2.06<br />
+2018-09-28 12:24:30 : 1.67<br />
+2018-09-28 12:24:30 : 3.02<br />
+2018-09-28 12:24:30 : 1.02<br />
+2018-09-28 12:24:30 : cart<br />
+2018-09-28 12:24:30 : 899327589<br />
+2018-09-28 12:24:30 : 2.4<br />
+2018-09-28 12:24:30 : xyz123<br />
+2018-09-28 12:24:30 : abc1234<br />
+2018-09-28 12:24:30 : 1<br />
+2018-09-28 12:24:30 : ATbMU602flG3KAfxoD5cPh9QHE1jAhLwf0p3cDYtSOHiIDgLW90njDZi<br />
+2018-09-28 12:24:30 : --- End Transaction ---<br />
+2018-09-28 12:24:30 : <br />
+2018-09-28 12:25:03 : --- Start Transaction ---<br />
+2018-09-28 12:25:03 : instant<br />
+2018-09-28 12:25:03 : Fri Sep 28 2018 05:24:07 GMT-0500 (Central Daylight Time)<br />
+2018-09-28 12:25:03 : Processed<br />
+2018-09-28 12:25:03 : verified<br />
+2018-09-28 12:25:03 : John<br />
+2018-09-28 12:25:03 : Smith<br />
+2018-09-28 12:25:03 : buyer@paypalsandbox.com<br />
+2018-09-28 12:25:03 : TESTBUYERID01<br />
+2018-09-28 12:25:03 : John Smith<br />
+2018-09-28 12:25:03 : United States<br />
+2018-09-28 12:25:03 : US<br />
+2018-09-28 12:25:03 : 95131<br />
+2018-09-28 12:25:03 : CA<br />
+2018-09-28 12:25:03 : San Jose<br />
+2018-09-28 12:25:03 : 123 any street<br />
+2018-09-28 12:25:03 : seller@paypalsandbox.com<br />
+2018-09-28 12:25:03 : seller@paypalsandbox.com<br />
+2018-09-28 12:25:03 : seller@paypalsandbox.com<br />
+2018-09-28 12:25:03 : US<br />
+2018-09-28 12:25:03 : something<br />
+2018-09-28 12:25:03 : AK-1234<br />
+2018-09-28 12:25:03 : 1<br />
+2018-09-28 12:25:03 : 3.04<br />
+2018-09-28 12:25:03 : 2.02<br />
+2018-09-28 12:25:03 : USD<br />
+2018-09-28 12:25:03 : 0.44<br />
+2018-09-28 12:25:03 : 12.34<br />
+2018-09-28 12:25:03 : 12.34<br />
+2018-09-28 12:25:03 : 2.06<br />
+2018-09-28 12:25:03 : 1.67<br />
+2018-09-28 12:25:03 : 3.02<br />
+2018-09-28 12:25:03 : 1.02<br />
+2018-09-28 12:25:03 : cart<br />
+2018-09-28 12:25:03 : 899327589<br />
+2018-09-28 12:25:03 : 2.4<br />
+2018-09-28 12:25:03 : xyz123<br />
+2018-09-28 12:25:03 : abc1234<br />
+2018-09-28 12:25:03 : 1<br />
+2018-09-28 12:25:03 : AWs9RwwFktQLVB7z5bSDC0MriAfzAJHe4cvQkGDhm6PMyFzMApOFG5DA<br />
+2018-09-28 12:25:03 : --- End Transaction ---<br />
+2018-09-28 12:25:03 : <br />
+2018-09-28 12:27:16 : --- Start Transaction ---<br />
+2018-09-28 12:27:16 : instant<br />
+2018-09-28 12:27:16 : Fri Sep 28 2018 05:24:07 GMT-0500 (Central Daylight Time)<br />
+2018-09-28 12:27:16 : Completed<br />
+2018-09-28 12:27:16 : verified<br />
+2018-09-28 12:27:16 : John<br />
+2018-09-28 12:27:16 : Smith<br />
+2018-09-28 12:27:16 : buyer@paypalsandbox.com<br />
+2018-09-28 12:27:16 : TESTBUYERID01<br />
+2018-09-28 12:27:16 : John Smith<br />
+2018-09-28 12:27:16 : United States<br />
+2018-09-28 12:27:16 : US<br />
+2018-09-28 12:27:16 : 95131<br />
+2018-09-28 12:27:16 : CA<br />
+2018-09-28 12:27:16 : San Jose<br />
+2018-09-28 12:27:16 : 123 any street<br />
+2018-09-28 12:27:16 : seller@paypalsandbox.com<br />
+2018-09-28 12:27:16 : seller@paypalsandbox.com<br />
+2018-09-28 12:27:16 : seller@paypalsandbox.com<br />
+2018-09-28 12:27:16 : US<br />
+2018-09-28 12:27:16 : something<br />
+2018-09-28 12:27:16 : AK-1234<br />
+2018-09-28 12:27:16 : 1<br />
+2018-09-28 12:27:16 : 3.04<br />
+2018-09-28 12:27:16 : 2.02<br />
+2018-09-28 12:27:16 : USD<br />
+2018-09-28 12:27:16 : 0.44<br />
+2018-09-28 12:27:16 : 12.34<br />
+2018-09-28 12:27:16 : 12.34<br />
+2018-09-28 12:27:16 : 2.06<br />
+2018-09-28 12:27:16 : 1.67<br />
+2018-09-28 12:27:16 : 3.02<br />
+2018-09-28 12:27:16 : 1.02<br />
+2018-09-28 12:27:16 : cart<br />
+2018-09-28 12:27:16 : 899327589<br />
+2018-09-28 12:27:16 : 2.4<br />
+2018-09-28 12:27:16 : xyz123<br />
+2018-09-28 12:27:16 : abc1234<br />
+2018-09-28 12:27:16 : 1<br />
+2018-09-28 12:27:16 : AbzUKcezB8naVHpx90zPdz4StQqYAUT7nfpL0u8zrxEn1nwS4WLYTlPI<br />
+2018-09-28 12:27:16 : --- End Transaction ---<br />
+2018-09-28 12:27:16 : <br />
+2018-09-28 12:47:07 : --- Start Transaction ---<br />
+2018-09-28 12:47:07 : --- End Transaction ---<br />
+2018-09-28 12:47:07 : <br />
+2018-09-28 13:45:56 : --- Start Transaction ---<br />
+2018-09-28 13:45:56 : echeck<br />
+2018-09-28 13:45:56 : Fri Sep 28 2018 06:39:53 GMT-0500 (Central Daylight Time)<br />
+2018-09-28 13:45:56 : Completed<br />
+2018-09-28 13:45:56 : confirmed<br />
+2018-09-28 13:45:56 : verified<br />
+2018-09-28 13:45:56 : John<br />
+2018-09-28 13:45:56 : Smith<br />
+2018-09-28 13:45:56 : buyer@paypalsandbox.com<br />
+2018-09-28 13:45:56 : TESTBUYERID01<br />
+2018-09-28 13:45:56 : John Smith<br />
+2018-09-28 13:45:56 : United States<br />
+2018-09-28 13:45:56 : US<br />
+2018-09-28 13:45:56 : 95131<br />
+2018-09-28 13:45:56 : CA<br />
+2018-09-28 13:45:56 : San Jose<br />
+2018-09-28 13:45:56 : 123 any street<br />
+2018-09-28 13:45:56 : seller@paypalsandbox.com<br />
+2018-09-28 13:45:56 : seller@paypalsandbox.com<br />
+2018-09-28 13:45:56 : seller@paypalsandbox.com<br />
+2018-09-28 13:45:56 : US<br />
+2018-09-28 13:45:56 : something<br />
+2018-09-28 13:45:56 : AK-1234<br />
+2018-09-28 13:45:56 : 1<br />
+2018-09-28 13:45:56 : 3.04<br />
+2018-09-28 13:45:56 : 2.02<br />
+2018-09-28 13:45:56 : USD<br />
+2018-09-28 13:45:56 : 0.44<br />
+2018-09-28 13:45:56 : 12.34<br />
+2018-09-28 13:45:56 : 12.34<br />
+2018-09-28 13:45:56 : web_accept<br />
+2018-09-28 13:45:56 : 402768513<br />
+2018-09-28 13:45:56 : 2.1<br />
+2018-09-28 13:45:56 : xyz123<br />
+2018-09-28 13:45:56 : abc1234<br />
+2018-09-28 13:45:56 : 1<br />
+2018-09-28 13:45:56 : AOwIQopgbiAehe.uJ6zuI9Yn4zSEAodpOcKQKevl-pn9C4XTlqfuzZ5D<br />
+2018-09-28 13:45:56 : --- End Transaction ---<br />
+2018-09-28 13:45:56 : <br />
+2018-09-28 16:19:01 : --- Start Transaction ---<br />
+2018-09-28 16:19:01 : echeck<br />
+2018-09-28 16:19:01 : Fri Sep 28 2018 09:18:51 GMT-0500 (Central Daylight Time)<br />
+2018-09-28 16:19:01 : Completed<br />
+2018-09-28 16:19:01 : confirmed<br />
+2018-09-28 16:19:01 : verified<br />
+2018-09-28 16:19:01 : John<br />
+2018-09-28 16:19:01 : Smith<br />
+2018-09-28 16:19:01 : buyer@paypalsandbox.com<br />
+2018-09-28 16:19:01 : TESTBUYERID01<br />
+2018-09-28 16:19:01 : John Smith<br />
+2018-09-28 16:19:01 : United States<br />
+2018-09-28 16:19:01 : US<br />
+2018-09-28 16:19:01 : 95131<br />
+2018-09-28 16:19:01 : CA<br />
+2018-09-28 16:19:01 : San Jose<br />
+2018-09-28 16:19:01 : 123 any street<br />
+2018-09-28 16:19:01 : seller@paypalsandbox.com<br />
+2018-09-28 16:19:01 : seller@paypalsandbox.com<br />
+2018-09-28 16:19:01 : seller@paypalsandbox.com<br />
+2018-09-28 16:19:01 : US<br />
+2018-09-28 16:19:01 : something<br />
+2018-09-28 16:19:01 : AK-1234<br />
+2018-09-28 16:19:01 : 1<br />
+2018-09-28 16:19:01 : 3.04<br />
+2018-09-28 16:19:01 : 2.02<br />
+2018-09-28 16:19:01 : USD<br />
+2018-09-28 16:19:01 : 0.44<br />
+2018-09-28 16:19:01 : 12.34<br />
+2018-09-28 16:19:01 : 12.34<br />
+2018-09-28 16:19:01 : web_accept<br />
+2018-09-28 16:19:01 : 676712233<br />
+2018-09-28 16:19:01 : 2.1<br />
+2018-09-28 16:19:01 : xyz123<br />
+2018-09-28 16:19:01 : abc1234<br />
+2018-09-28 16:19:01 : 1<br />
+2018-09-28 16:19:01 : AF.EazvYSJy6wl7.VQxfxNgv-NreAWTyebYPKfC.9jfI4ov8PWeDksm1<br />
+2018-09-28 16:19:01 : --- End Transaction ---<br />
+2018-09-28 16:19:01 : <br />
+2018-09-28 16:22:02 : --- Start Transaction ---<br />
+2018-09-28 16:22:02 : 100.00<br />
+2018-09-28 16:22:02 : Ineligible<br />
+2018-09-28 16:22:02 : confirmed<br />
+2018-09-28 16:22:02 : 2Z3GSM7RLCTAU<br />
+2018-09-28 16:22:02 : 0.00<br />
+2018-09-28 16:22:02 : 1 Main St<br />
+2018-09-28 16:22:02 : 07:21:55 Sep 28, 2018 PDT<br />
+2018-09-28 16:22:02 : Pending<br />
+2018-09-28 16:22:02 : windows-1252<br />
+2018-09-28 16:22:02 : 95131<br />
+2018-09-28 16:22:02 : Test<br />
+2018-09-28 16:22:02 : US<br />
+2018-09-28 16:22:02 : Test Test<br />
+2018-09-28 16:22:02 : 3.9<br />
+2018-09-28 16:22:02 : <br />
+2018-09-28 16:22:02 : unverified<br />
+2018-09-28 16:22:02 : United States<br />
+2018-09-28 16:22:02 : San Jose<br />
+2018-09-28 16:22:02 : 0<br />
+2018-09-28 16:22:02 : AGkln3tZVY2Ib-7kLW5uSA7dNZr9AKNkh5ZBjG5FijFe84APTPSQJoZ9<br />
+2018-09-28 16:22:02 : test@emeraldsanctum.com<br />
+2018-09-28 16:22:02 : 82H93507E6946345Y<br />
+2018-09-28 16:22:02 : instant<br />
+2018-09-28 16:22:02 : Test<br />
+2018-09-28 16:22:02 : CA<br />
+2018-09-28 16:22:02 : warchief@emeraldsanctum.com<br />
+2018-09-28 16:22:02 : unilateral<br />
+2018-09-28 16:22:02 : web_accept<br />
+2018-09-28 16:22:02 : 1500 Web Points --- Account: WARCHIEF(#2)<br />
+2018-09-28 16:22:02 : USD<br />
+2018-09-28 16:22:02 : 5<br />
+2018-09-28 16:22:02 : US<br />
+2018-09-28 16:22:02 : 1<br />
+2018-09-28 16:22:02 : <br />
+2018-09-28 16:22:02 : 100.00<br />
+2018-09-28 16:22:02 : ba62ca9ee41c5<br />
+2018-09-28 16:22:02 : --- End Transaction ---<br />
+2018-09-28 16:22:02 : <br />
+2018-09-28 16:34:10 : HTTP/1.1 200 OK
+ != VERIFIED<br />
+2018-09-28 16:34:10 : Date: Fri, 28 Sep 2018 14:34:11 GMT
+ != VERIFIED<br />
+2018-09-28 16:34:10 : Server: Apache
+ != VERIFIED<br />
+2018-09-28 16:34:10 : X-Frame-Options: SAMEORIGIN
+ != VERIFIED<br />
+2018-09-28 16:34:10 : Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=Py4cUB0bITfyHAu6NKRle9KEW9etuqfaOo6IM3_nrpe5mnQc3cxaxALjbHBmUmiYEU3qoVUxkNm-ZVMbpqQRA5nUj1X4UdbPmTpXyXrG8_vR5Fmd_71AKtLl0jRYs1UcAWX-aYM4wt584puUxpKSrjBJzSL6Ug0iG2an5HTwR0MWON5A1ZqVegQWW3nKgsg5x8Bh4Zb5PPA3OHyd0rCZF-zwxR_nqLWXywL9lQu-dVfB2z8DZuk4Y8mQyIYlr8aggAUuK6d8Xs-_NeQoW7l1moPK7rSaSpIx5qnmU0ZVeF82KVApSe5mVoncw-Hi2uOy1kYYbaWSnT7WYugWGp4Gz1laqQXm3FY64WITnY0esxFzuuiv1HYGUWhFS5P2Fd5Nsmkm5syc9ORDluYF_17iaxcHknbxuV2-OrO6DwHS8gh-HY-IHbQPTBl56IC; domain=.paypal.com; path=/; Secure; HttpOnly
+ != VERIFIED<br />
+2018-09-28 16:34:10 : Set-Cookie: cookie_check=yes; expires=Mon, 25-Sep-2028 14:34:12 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+ != VERIFIED<br />
+2018-09-28 16:34:10 : Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+ != VERIFIED<br />
+2018-09-28 16:34:10 : Set-Cookie: navlns=0.0; expires=Sun, 27-Sep-2020 14:34:12 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+ != VERIFIED<br />
+2018-09-28 16:34:10 : Set-Cookie: Apache=10.72.108.11.1538145251955166; path=/; expires=Sun, 20-Sep-48 14:34:11 GMT
+ != VERIFIED<br />
+2018-09-28 16:34:10 : Vary: Accept-Encoding,User-Agent
+ != VERIFIED<br />
+2018-09-28 16:34:10 : Connection: close
+ != VERIFIED<br />
+2018-09-28 16:34:10 : HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+ != VERIFIED<br />
+2018-09-28 16:34:10 : Paypal-Debug-Id: d86a0065e60a3
+ != VERIFIED<br />
+2018-09-28 16:34:10 : Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D3812339291%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Fri, 28 Sep 2018 15:04:12 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+ != VERIFIED<br />
+2018-09-28 16:34:10 : Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+ != VERIFIED<br />
+2018-09-28 16:34:10 : Transfer-Encoding: chunked
+ != VERIFIED<br />
+2018-09-28 16:34:10 : Content-Type: text/html; charset=UTF-8
+ != VERIFIED<br />
+2018-09-28 16:34:10 : Strict-Transport-Security: max-age=63072000
+ != VERIFIED<br />
+2018-09-28 16:34:10 : 
+ != VERIFIED<br />
+2018-09-28 16:34:10 : 8
+ != VERIFIED<br />
+2018-09-28 16:34:10 : VERIFIED
+ != VERIFIED<br />
+2018-09-28 16:34:10 : 0
+ != VERIFIED<br />
+2018-09-28 16:34:10 : 
+ != VERIFIED<br />
+2018-09-28 16:34:10 : --- Start Transaction ---<br />
+2018-09-28 16:34:10 : 100.00<br />
+2018-09-28 16:34:10 : Ineligible<br />
+2018-09-28 16:34:10 : confirmed<br />
+2018-09-28 16:34:10 : 2Z3GSM7RLCTAU<br />
+2018-09-28 16:34:10 : 0.00<br />
+2018-09-28 16:34:10 : 1 Main St<br />
+2018-09-28 16:34:10 : 07:34:01 Sep 28, 2018 PDT<br />
+2018-09-28 16:34:10 : Pending<br />
+2018-09-28 16:34:10 : windows-1252<br />
+2018-09-28 16:34:10 : 95131<br />
+2018-09-28 16:34:10 : Test<br />
+2018-09-28 16:34:10 : US<br />
+2018-09-28 16:34:10 : Test Test<br />
+2018-09-28 16:34:10 : 3.9<br />
+2018-09-28 16:34:10 : <br />
+2018-09-28 16:34:10 : unverified<br />
+2018-09-28 16:34:10 : United States<br />
+2018-09-28 16:34:10 : San Jose<br />
+2018-09-28 16:34:10 : 0<br />
+2018-09-28 16:34:10 : AJaSmU3a6KC3yCg05ehVp6QqAuY9AePEc7XxpAtVtMWIjfoyjIKYiKJD<br />
+2018-09-28 16:34:10 : test@emeraldsanctum.com<br />
+2018-09-28 16:34:10 : 31526031SJ7358459<br />
+2018-09-28 16:34:10 : instant<br />
+2018-09-28 16:34:10 : Test<br />
+2018-09-28 16:34:10 : CA<br />
+2018-09-28 16:34:10 : warchief@emeraldsanctum.com<br />
+2018-09-28 16:34:10 : unilateral<br />
+2018-09-28 16:34:10 : web_accept<br />
+2018-09-28 16:34:10 : 1500 Web Points --- Account: WARCHIEF(#2)<br />
+2018-09-28 16:34:10 : USD<br />
+2018-09-28 16:34:10 : 5<br />
+2018-09-28 16:34:10 : US<br />
+2018-09-28 16:34:10 : 1<br />
+2018-09-28 16:34:10 : <br />
+2018-09-28 16:34:10 : 100.00<br />
+2018-09-28 16:34:10 : 239616ce3dc0<br />
+2018-09-28 16:34:10 : --- End Transaction ---<br />
+2018-09-28 16:34:10 : <br />
+2018-09-28 16:49:31 : <br />
+2018-09-28 16:49:31 : HTTP/1.1 200 OK
+ != VERIFIED<br />
+2018-09-28 16:49:31 : Date: Fri, 28 Sep 2018 14:49:32 GMT
+ != VERIFIED<br />
+2018-09-28 16:49:31 : Server: Apache
+ != VERIFIED<br />
+2018-09-28 16:49:31 : X-Frame-Options: SAMEORIGIN
+ != VERIFIED<br />
+2018-09-28 16:49:31 : Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=sG_5tRuHiaVNcoW5V2qEGBlmJ1GhD8lANVeASm_EF_B62IzrWJXhSfOu78AFuFQS0KvrbpS7-kXcMTQG18Vy7-KwjViLMgRAOSj7Jm8iZ0YLRAdvIoHTV3Q0El_5LrVPrlYS2k1NYoY8MmKj10qOHTvuhatQkuMqTm-Co7EiTuhJxIoZey-I4gqdvbUGPpd7D1aTUs5L8wtnnSEpEcfLAIa7O2HPXu5d6GfrV2eJGtdfHFNd2ERK_XHmr3OAtJ1AGKtBAg7sewBcnx25J9GldVrOvAlAahNvjTjhwnn_QZFmCo-e0ri68qT13POaW11KFpZSj1T7ZozhrhsCUBaNwdoffobPf-EoEMu1ant3jPzTcKWOqVGeEJLVoqE8beilnGJN-h_ucvSjEnGH1DinmH5ofb-KfU1hitDxeW; domain=.paypal.com; path=/; Secure; HttpOnly
+ != VERIFIED<br />
+2018-09-28 16:49:31 : Set-Cookie: cookie_check=yes; expires=Mon, 25-Sep-2028 14:49:33 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+ != VERIFIED<br />
+2018-09-28 16:49:31 : Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+ != VERIFIED<br />
+2018-09-28 16:49:31 : Set-Cookie: navlns=0.0; expires=Sun, 27-Sep-2020 14:49:33 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+ != VERIFIED<br />
+2018-09-28 16:49:31 : Set-Cookie: Apache=10.72.108.11.1538146172828846; path=/; expires=Sun, 20-Sep-48 14:49:32 GMT
+ != VERIFIED<br />
+2018-09-28 16:49:31 : Vary: Accept-Encoding,User-Agent
+ != VERIFIED<br />
+2018-09-28 16:49:31 : Connection: close
+ != VERIFIED<br />
+2018-09-28 16:49:31 : HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+ != VERIFIED<br />
+2018-09-28 16:49:31 : Paypal-Debug-Id: ba10db49c6ae8
+ != VERIFIED<br />
+2018-09-28 16:49:31 : Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D2084548187%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Fri, 28 Sep 2018 15:19:33 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+ != VERIFIED<br />
+2018-09-28 16:49:31 : Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+ != VERIFIED<br />
+2018-09-28 16:49:31 : Transfer-Encoding: chunked
+ != VERIFIED<br />
+2018-09-28 16:49:31 : Content-Type: text/html; charset=UTF-8
+ != VERIFIED<br />
+2018-09-28 16:49:31 : Strict-Transport-Security: max-age=63072000
+ != VERIFIED<br />
+2018-09-28 16:49:31 : 
+ != VERIFIED<br />
+2018-09-28 16:49:31 : 8
+ != VERIFIED<br />
+2018-09-28 16:49:31 : 0
+ != VERIFIED<br />
+2018-09-28 16:49:31 : 
+ != VERIFIED<br />
+2018-09-28 16:54:23 : <br />
+2018-09-28 16:54:23 : HTTP/1.1 200 OK
+ != VERIFIED<br />
+2018-09-28 16:54:23 : Date: Fri, 28 Sep 2018 14:54:24 GMT
+ != VERIFIED<br />
+2018-09-28 16:54:23 : Server: Apache
+ != VERIFIED<br />
+2018-09-28 16:54:23 : X-Frame-Options: SAMEORIGIN
+ != VERIFIED<br />
+2018-09-28 16:54:23 : Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=9_SZtHYdffqtHQ2r6lgUgJRcdicWF4ldKHFE3Ff8D5lrjGgBxe6ZomBUdbc57srp-zKPhU1_cnAw1JxSlP0rlOk5Bda1qHD1ygHoa88aT-Lp5K8IPL-FQ6y-tQmZDjOtXSu741Apz6RqTSWK-cB2ZiDfemZOsRMYcD7Xui2vh1MGy-5g6Y-HhmKemjO05xJdMy0O227kJ89JA8IQHsQwFDQ6JSi-_pr4jfG_yAkQcb_rCcal1SGzHpC7ZP8OYJ6UNHSeZXjzCiENuEyH7qly9GNAIFQfOlVOJIioNV70Csl_x4eM2jgrSKBqq54bLGF-WgAEndAdVJkBkTzfyL7xu0ms3C3pjouym-okJJDzhay0r9veUPocFVyBlEbpX1ehQWkzw2AWJGg-XDAljE6lgHLPs5YMW2cJDSTJw0f5Kj5JyP-R5ESGXMUmrMi; domain=.paypal.com; path=/; Secure; HttpOnly
+ != VERIFIED<br />
+2018-09-28 16:54:23 : Set-Cookie: cookie_check=yes; expires=Mon, 25-Sep-2028 14:54:25 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+ != VERIFIED<br />
+2018-09-28 16:54:23 : Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+ != VERIFIED<br />
+2018-09-28 16:54:23 : Set-Cookie: navlns=0.0; expires=Sun, 27-Sep-2020 14:54:25 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+ != VERIFIED<br />
+2018-09-28 16:54:23 : Set-Cookie: Apache=10.72.108.11.1538146464907208; path=/; expires=Sun, 20-Sep-48 14:54:24 GMT
+ != VERIFIED<br />
+2018-09-28 16:54:23 : Vary: Accept-Encoding,User-Agent
+ != VERIFIED<br />
+2018-09-28 16:54:23 : Connection: close
+ != VERIFIED<br />
+2018-09-28 16:54:23 : HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+ != VERIFIED<br />
+2018-09-28 16:54:23 : Paypal-Debug-Id: 915c62cfda3f3
+ != VERIFIED<br />
+2018-09-28 16:54:23 : Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D2688593499%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Fri, 28 Sep 2018 15:24:25 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+ != VERIFIED<br />
+2018-09-28 16:54:23 : Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+ != VERIFIED<br />
+2018-09-28 16:54:23 : Transfer-Encoding: chunked
+ != VERIFIED<br />
+2018-09-28 16:54:23 : Content-Type: text/html; charset=UTF-8
+ != VERIFIED<br />
+2018-09-28 16:54:23 : Strict-Transport-Security: max-age=63072000
+ != VERIFIED<br />
+2018-09-28 16:54:23 : 
+ != VERIFIED<br />
+2018-09-28 16:54:23 : 8
+ != VERIFIED<br />
+2018-09-28 16:54:23 : VERIFIED
+ == VERIFIED<br />
+2018-09-28 16:54:23 : 0
+ != VERIFIED<br />
+2018-09-28 16:54:23 : 
+ != VERIFIED<br />
+2018-09-28 16:58:12 : <br />
+2018-09-28 16:58:13 : HTTP/1.1 200 OK
+ != VERIFIED<br />
+2018-09-28 16:58:13 : Date: Fri, 28 Sep 2018 14:58:14 GMT
+ != VERIFIED<br />
+2018-09-28 16:58:13 : Server: Apache
+ != VERIFIED<br />
+2018-09-28 16:58:13 : X-Frame-Options: SAMEORIGIN
+ != VERIFIED<br />
+2018-09-28 16:58:13 : Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=mau_CitaqWAFfr3E28DRFizI-cD8vG8vJxg726Ny-hLBdEOSODJj1AkMvzMUCnMlJ2gtKd7lg15PQBbEFGko9TsnYX9xRJm4zYBqIZxz6a1rkhzI63PPcl7dnCZYqCa4AG2aLwsJbH5cHdhMy9pxyCl6VDu9G0jjZQqa2080NvP2nHjxjJYPL0QKPQ2s4IQANi5-u-2QOb4hU9w_tK32XmYxZHxm35goCjFgSZ9n3OIGZxCDatgiyveCrdf-GXvreJEjCc52gdraNtxgJDAAFf8O-oEbfQrHdgkKWUSF93OtreGxtQu5GlgFefnn3CnZM1FaQNAMmrv_SUBJH8Op5RNYe14UU5rW55GvmHtz82_PD138b0IZCu5NJCYtRX1NT8w_g9FU-nXJiJi57EJ9yx8cc1oYvwd3AcYUDT17x35za6gNUgLDshJ1-ci; domain=.paypal.com; path=/; Secure; HttpOnly
+ != VERIFIED<br />
+2018-09-28 16:58:13 : Set-Cookie: cookie_check=yes; expires=Mon, 25-Sep-2028 14:58:14 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+ != VERIFIED<br />
+2018-09-28 16:58:13 : Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+ != VERIFIED<br />
+2018-09-28 16:58:13 : Set-Cookie: navlns=0.0; expires=Sun, 27-Sep-2020 14:58:14 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+ != VERIFIED<br />
+2018-09-28 16:58:13 : Set-Cookie: Apache=10.72.108.11.1538146694632300; path=/; expires=Sun, 20-Sep-48 14:58:14 GMT
+ != VERIFIED<br />
+2018-09-28 16:58:13 : Vary: Accept-Encoding,User-Agent
+ != VERIFIED<br />
+2018-09-28 16:58:13 : Connection: close
+ != VERIFIED<br />
+2018-09-28 16:58:13 : HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+ != VERIFIED<br />
+2018-09-28 16:58:13 : Paypal-Debug-Id: 48f4558597261
+ != VERIFIED<br />
+2018-09-28 16:58:13 : Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D2252451419%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Fri, 28 Sep 2018 15:28:15 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+ != VERIFIED<br />
+2018-09-28 16:58:13 : Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+ != VERIFIED<br />
+2018-09-28 16:58:13 : Transfer-Encoding: chunked
+ != VERIFIED<br />
+2018-09-28 16:58:13 : Content-Type: text/html; charset=UTF-8
+ != VERIFIED<br />
+2018-09-28 16:58:13 : Strict-Transport-Security: max-age=63072000
+ != VERIFIED<br />
+2018-09-28 16:58:13 : 
+ != VERIFIED<br />
+2018-09-28 16:58:13 : 8
+ != VERIFIED<br />
+2018-09-28 16:58:13 : VERIFIED
+ == VERIFIED<br />
+2018-09-28 16:58:13 : 0
+ != VERIFIED<br />
+2018-09-28 16:58:13 : 
+ != VERIFIED<br />

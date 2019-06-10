@@ -1,9 +1,10 @@
 <?php
 /****************************************************************************/
-/*  						< MangosWeb v4 >  								*/
-/*              Copyright (C) <2017> <Mistvale.com>   		                */
-/*					  < http://www.mistvale.com >							*/
+/*  						< Emerald Sanctum >  							*/
+/*              Copyright (C) <2018> <emeraldsanctum.com>   		        */
+/*					  < https://emeraldsanctum.com >					 	*/
 /*																			*/
+/*			Origional MangosWeb v4 (C) 2017 Mistvale.com					*/
 /*			Original MangosWeb Enhanced (C) 2010-2011 KeysWow				*/
 /*			Original MangosWeb (C) 2007, Sasha, Nafe, TGM, Peec				*/
 /****************************************************************************/
@@ -48,14 +49,14 @@ function process()
 		{
 			$return = FALSE;
 		}
-		else if ($DB->selectRow("SELECT * FROM `account` WHERE username='".$username."'") == false)
+		else if ($DB->selectRow("SELECT * FROM `auth`.`account` WHERE username='".$username."'") == false)
 		{
 			$username == FALSE;
 			$return = FALSE;
 		}
 		else
 		{
-			$d = $DB->selectRow("SELECT * FROM `account` WHERE username='".$username."'");
+			$d = $DB->selectRow("SELECT * FROM `auth`.`account` WHERE username='".$username."'");
 			$username =& $d['id'];
 			$username_name =& $d['username'];
 			$email =& $d['email'];
@@ -92,9 +93,9 @@ function process()
 			{
 				$pas = random_string(7);
 				$c_pas = $Account->sha_password($username_name,$pas);
-				$DB->query("UPDATE `account` SET sha_pass_hash='".$c_pas."' WHERE id='".$username."'");
-				$DB->query("UPDATE `account` SET sessionkey=NULL WHERE id='".$username."'");
-				output_message('success', $lang['restore_pass_success'].'<br /> New password: '.$pas);
+				$DB->query("UPDATE `auth`.`account` SET sha_pass_hash='".$c_pas."' WHERE id='".$username."'");
+				$DB->query("UPDATE `auth`.`account` SET sessionkey=NULL WHERE id='".$username."'");
+				output_message('success', $lang['restore_pass_success'].'<br /> Write down New password: '.$pas);
 			}
 			else
 			{

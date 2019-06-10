@@ -46,7 +46,7 @@ $res_info = array();
 $query = array();
 $realm_info = get_realm_byid($_COOKIE['cur_selected_realm']);
 $cc = 0;
-$Online_Check = check_port_status($realm_info['address'], $realm_info['port']);
+$Online_Check = check_port_status($realm_info['address'], $realm_info['port'], 10);
 if($Online_Check == TRUE)
 {
 	$Count = $Character->getOnlineCount();

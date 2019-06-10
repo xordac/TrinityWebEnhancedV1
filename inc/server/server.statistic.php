@@ -27,7 +27,7 @@ $pathway_info[] = array('title' => $realm['name'], 'link' => '');
 
 //initialize $num_chars variable
 $num_chars = 0;
-$rc = $CDB->select("SELECT race, count(race) AS `num` FROM `characters` GROUP BY race");
+$rc = $CDB->select("SELECT race, count(race) AS `num` FROM `characters` WHERE account>0 GROUP BY race");
 
 foreach($rc as $row)
 {
@@ -60,8 +60,45 @@ if ($num_chars > 0)
     $pc_tauren = round($data[6]/$num_chars*100,2);
     $pc_gnome = round($data[7]/$num_chars*100,2);
     $pc_troll = round($data[8]/$num_chars*100,2);
-    $pc_be = round($data[10]/$num_chars*100,2);
-    $pc_dranei = round($data[11]/$num_chars*100,2);
 }
+
+
+
+
+
+//Insert Class Data Varables
+
+
+//initialize $num_chars variable
+$num_chars = 0;
+$rc = $CDB->select("SELECT class, count(class) AS `num` FROM `characters` WHERE account>0 GROUP BY class");
+foreach($rc as $row)
+{
+    $class[$row['class']] = $row['num'];
+}
+// Loop thru classes, add 0 if its not defined in array.
+for($i = 1; $i <= 11; $i++)
+{
+    if(!isset($class[$i]))
+    {
+        $class[$i] = 0;
+    }
+    $num_chars += $class[$i];
+}
+//Check if 0 entries to avoid PHP warnings if 0 chars in database.
+if ($num_chars > 0)
+{
+    $pc_warrior = round($class[1]/$num_chars*100,2);
+    $pc_paladin = round($class[2]/$num_chars*100,2);
+    $pc_hunter = round($class[3]/$num_chars*100,2);
+    $pc_rogue = round($class[4]/$num_chars*100,2);
+    $pc_priest = round($class[5]/$num_chars*100,2);
+    $pc_dk = round($class[6]/$num_chars*100,2);
+    $pc_shaman = round($class[7]/$num_chars*100,2);
+    $pc_mage = round($class[8]/$num_chars*100,2);
+    $pc_warlock = round($class[9]/$num_chars*100,2);
+    $pc_druid = round($class[11]/$num_chars*100,2);	
+}
+
 ?>
 

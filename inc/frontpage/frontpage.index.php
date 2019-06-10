@@ -1,9 +1,10 @@
 <?php
 /****************************************************************************/
-/*  						< MangosWeb v4 >  								*/
-/*              Copyright (C) <2017> <Mistvale.com>   		                */
-/*					  < http://www.mistvale.com >							*/
+/*  						< Emerald Sanctum >  							*/
+/*              Copyright (C) <2018> <emeraldsanctum.com>   		        */
+/*					  < https://emeraldsanctum.com >					 	*/
 /*																			*/
+/*			Origional MangosWeb v4 (C) 2017 Mistvale.com					*/
 /*			Original MangosWeb Enhanced (C) 2010-2011 KeysWow				*/
 /*			Original MangosWeb (C) 2007, Sasha, Nafe, TGM, Peec				*/
 /****************************************************************************/
@@ -51,7 +52,7 @@ foreach($multirealms as $realmnow_arr)
 		if((int)$mwe_config['fp_realm_status'] == 1)
 		{
 			$checkaddress = $data['address'];
-			$server['realm_status'] = (check_port_status($checkaddress, $data['port'], 0.5) === true) ? true : false;
+			$server['realm_status'] = (check_port_status($checkaddress, $data['port'], 10) === true) ? true : false;
 		}
 		$changerealmtoparam = array("changerealm_to" => $realmnow_arr['realm_id']);
 		if($mwe_config['fp_players_online'] == 1)

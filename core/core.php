@@ -1,17 +1,18 @@
 <?php
 /****************************************************************************/
-/*  						< MangosWeb v4 >  								*/
-/*              Copyright (C) <2017> <Mistvale.com>   		                */
-/*					  < http://www.mistvale.com >							*/
+/*  						< Emerald Sanctum >  							*/
+/*              Copyright (C) <2018> <emeraldsanctum.com>   		        */
+/*					  < https://emeraldsanctum.com >					 	*/
 /*																			*/
+/*			Origional MangosWeb v4 (C) 2017 Mistvale.com					*/
 /*			Original MangosWeb Enhanced (C) 2010-2011 KeysWow				*/
 /*			Original MangosWeb (C) 2007, Sasha, Nafe, TGM, Peec				*/
 /****************************************************************************/
 
 class Core
 {
-	public $version = '4.1.4';
-	public $version_date = '2017-12-13, 11:22';
+	public $version = '5.0.0';
+	public $version_date = '9/28/2018, 11:30';
 	public $db_version = '4.1.0';
 	private $conf;
 
@@ -29,7 +30,8 @@ class Core
 //**************************************************************	
 	private function Initialize()
 	{
-		$this->copyright = 'Powered by MaNGOS Web Enhanced version ' . $this->version . ' &copy; 2017, <a href="http://www.mistvale.com">Mistvale Dev Team</a>. All Rights Reserved.';
+      
+		$this->copyright = 'Website Version ' . $this->version . ' &copy; 2018, Emerald Sanctum Dev Team</a>. All Rights Reserved.';
 	
 		// Fill in the config with the proper directory info if the directory info is wrong
 		define('SITE_DIR', dirname( $_SERVER['PHP_SELF'] ).'/');

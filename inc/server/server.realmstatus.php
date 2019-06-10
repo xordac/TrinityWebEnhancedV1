@@ -104,23 +104,16 @@ foreach($Realm as $row)
 
 	$row = array_merge($row, $realm_data);
 	
-	// Establish the Character DB connection
-	$CDB_EXTRA = new Database(
-		$row['db_char_host'],
-		$row['db_char_port'],
-		$row['db_char_user'],
-		$row['db_char_pass'],
-		$row['db_char_name']
-	);
+
 
 	// Establish the World DB connection	
-	$WDB_EXTRA = new Database(
-		$row['db_world_host'],
-		$row['db_world_port'],
-		$row['db_world_user'],
-		$row['db_world_pass'],
-		$row['db_world_name']
-	);
+	// $WDB_EXTRA = new Database(
+	// 	$row['db_world_host'],
+	// 	$row['db_world_port'],
+	// 	$row['db_world_user'],
+	// 	$row['db_world_pass'],
+	// 	$row['db_world_name']
+	// );
 
 	// $res_color is a template thing for blizzlike templates,
 	// makes each row an offset color from the previous
@@ -140,6 +133,14 @@ foreach($Realm as $row)
 	// Check the realm status using the check_port_status function
     if(check_port_status($row['address'], $row['port'], 2) == TRUE)
     {
+		// Establish the Character DB connection
+		$CDB_EXTRA = new Database(
+			$row['db_char_host'],
+			$row['db_char_port'],
+			$row['db_char_user'],
+			$row['db_char_pass'],
+			$row['db_char_name']
+		);
 		// res image is the up arrow pretty much
         $res_img = 'Online';
 		
@@ -148,7 +149,9 @@ foreach($Realm as $row)
 		
 		// Get the server uptime
 		$start_time = $RDB->selectCell("SELECT `starttime` FROM `uptime` WHERE `realmid`='".$realm_num."' ORDER BY `starttime` DESC LIMIT 1");
-        $uptime = (time() - $start_time);
+		$uptime = (time() - $start_time);
+		unset($CDB_EXTRA);
+
     }
     else
     {
@@ -177,8 +180,7 @@ foreach($Realm as $row)
     $realm_list[$i]['uptime'] = $uptime;
 	
 	// Unset the realms DB Connections
-    unset($WDB_EXTRA);
-    unset($CDB_EXTRA);
+    // unset($WDB_EXTRA);
 	$i++;
 }
 ?>

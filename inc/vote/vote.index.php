@@ -124,7 +124,7 @@ function vote($site)
 	$get_voting = $DB->selectRow("SELECT * FROM `mw_voting` WHERE `user_ip` LIKE '".$_SERVER["REMOTE_ADDR"]."' AND `site`='".$site."' LIMIT 1");
 	if((time() - $get_voting['time']) < $tab_sites['reset_time'])
 	{
-		output_message('validation', 'You have already voted for this site in the last 24 hours! Redirecting...
+		output_message('validation', 'You have already voted for this site in the last 12 hours! Redirecting...
 			<meta http-equiv=refresh content="4;url=?p=vote">');
 		echo "<br /><br />";
 	}
@@ -132,7 +132,7 @@ function vote($site)
 	{
 		if($tab_sites != FALSE)
 		{
-			if($mwe_config['module_vote_onlinecheck'] == 1)
+			if($mwe_config['module_vote_online_check'] == 1)
 			{
 				$fp = @fsockopen($tab_sites['hostname'], 80, $errno, $errstr, 3);
 			}
@@ -142,7 +142,7 @@ function vote($site)
 			}
 			if($fp)
 			{
-				if($mwe_config['module_vote_onlinecheck'] == 1)
+				if($mwe_config['module_vote_online_check'] == 1)
 				{
 					fclose($fp);
 				}

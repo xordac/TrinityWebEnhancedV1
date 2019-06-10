@@ -94,10 +94,13 @@ class Paypal
 		$url = $this->getAddress();
 		
 		// Headers to post back to paypal
-		$header .= "POST /cgi-bin/webscr HTTP/1.0\r\n";
-		$header .= "Content-Type: application/x-www-form-urlencoded\r\n";
-		$header .= "Content-Length: " . strlen($req) . "\r\n\r\n";
+		$header  = "POST /cgi-bin/webscr HTTP/1.1\r\n";
+        $header .= "Content-Length: " . strlen($req) . "\r\n";
+        $header .= "Content-Type: application/x-www-form-urlencoded\r\n";
+        $header .= "Host: www.paypal.com\r\n";
+        $header .= "Connection: close\r\n\r\n";
 		$fp = fsockopen('ssl://'.$url, 443, $errno, $errstr, 30);
+		//$this->writeLog(var_dump($fp));
 		
 		// $fp = fsockopen ($url, 80, $errno, $errstr, 30);
 	
@@ -116,10 +119,13 @@ class Paypal
 			while(!feof($fp)) 
 			{
 				$res = fgets($fp, 1024);
-				if(strcmp($res, "VERIFIED") == 0) # If line result length matches VERIFIED
-				{				
-					$loop = TRUE; # Define the loop contained VERIFIED
-				} 
+                if(strcmp(trim($res), trim("VERIFIED")) == 0) # If line result length matches VERIFIED
+                {
+                    //$this->writeLog($res . " == VERIFIED");
+                    $loop = TRUE; # Define the loop contained VERIFIED
+                }  else {
+                    //$this->writeLog($res . " != VERIFIED");
+                }
 			}
 			if($loop == TRUE)
 			{

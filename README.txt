@@ -4,4 +4,4 @@ Installation guide - https://github.com/paintballrefjosh/MaNGOSWebV4/wiki/Instal
 
 Upgrade guide - https://github.com/paintballrefjosh/MaNGOSWebV4/wiki/Upgrading
 
-Please report any bugs to the issue tracker - https://github.com/paintballrefjosh/MaNGOSWebV4/issues
+

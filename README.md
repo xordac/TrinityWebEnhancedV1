@@ -1,10 +1,10 @@
-# Welcome to MaNGOSWebV4
+# Welcome to MaNGOSWebV5
 This is another continuation of the MaNGOSWebV3 which was abandoned in 2011.  All original credit goes to the previous developers.
 
 You can view a live copy of the latest version used for testing by visiting **www.mistvale.com**.
 
 ##Features
- - Support for Mangos Based Cores (Trinity, Darkice)
+ - Support for Mangos Based Cores (Trinity, Darkice, Azerothcore)
  - Full template system allowing any layout, including non-blizzlike templates
  - New SDL idea makes any emulator / patch combo possible with even the newest updates of v3
  - SDL backend allows most task to be done without direct database access. Allows modules that you make to be cross-emu support, without coding for it.
@@ -18,7 +18,8 @@ You can view a live copy of the latest version used for testing by visiting **ww
  - Users can manage there accounts with ease
  - Password recovery system using the secret question system
  - Account registration features such as "Invite Only", and "Account Activation"
- - fully Re-written and tested donation system
+ - fully Re-written and tested donation system WORKING
  - Web point system - Earn points for donating and voting
  - Shop system for users to spend their Web Points
+ - Account restore is working
  - Much Much More!

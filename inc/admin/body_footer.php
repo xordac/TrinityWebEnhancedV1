@@ -18,7 +18,7 @@
 			Query's: (MaNGOS Web DB: <?= $DB->_statistics['count']; ?>, Realm DB: <?php echo $RDB->_statistics['count']; ?>,
 			World DB: <?php echo $WDB->_statistics['count']?>,
 			Character DB: <?php echo $CDB->_statistics['count']?>)<br/>
-			Template originally designed by <a href="http://rodcreative.com/">Rod Creative</a>, Modified by Wilson212 for MangosWeb.<br /> 
+			MangosWeb Enhanced v5 powered by Ghost & Warchief for <a href="http://emeraldsanctum.com/">Emerald Sanctum</a>. Template originally designed by Rod Creative modified by Wilson212.<br /> 
 			<?php echo $Core->copyright; // DONOT remove!!! ?> 
 		</p>
 		</center>

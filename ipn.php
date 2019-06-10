@@ -16,14 +16,9 @@ include('core/lib/class.paypal.php');
 
 // Initiate the classes, and establish a DB conection
 //$Config = new Config;
+//Set your database info here for return paypal information
 $Paypal = new Paypal;
-$DB = new Database(
-	$mwe_config['db_logon_host'], 
-	$mwe_config['db_logon_port'], 
-	$mwe_config['db_logon_username'], 
-	$mwe_config['db_logon_password'], 
-	$mwe_config['db_logon_name']
-);
+$DB = mysqli_connect("127.0.0.1","root","PASSWORD","mangosweb");
 
 // Set test mode features (TRUE or FALSE)
 $Paypal->testMode(FALSE);

@@ -46,9 +46,9 @@ $cc = 0;
 $query1 = array();
 
 //Find total number of characters in database -- used to calculate total number of pages
-$cc2 = (int)$CDB->count("SELECT guid FROM `characters`");
+$cc2 = (int)$CDB->count("SELECT guid FROM `characters` WHERE account>0");
 
-$query1 = $CDB->select("SELECT * FROM `characters` ORDER BY `name` LIMIT $limit_start, $items_per_pages");
+$query1 = $CDB->select("SELECT * FROM `characters` WHERE account>0 ORDER BY `name` LIMIT $limit_start, $items_per_pages");
 
 $cc1 = 0;
 $item_res = array();

@@ -19,10 +19,10 @@ else
 	</tr>
 	<tr>
 		<td colspan="2" align="left" style="padding-left: 20px;">
-            Alliance: <?php echo $num_ally; ?> (<?php echo $pc_ally; ?>%)
+            <strong>Alliance: </strong><?php echo $num_ally; ?> (<?php echo $pc_ally; ?>%)
         </td>
 		<td colspan="2" align="right" style="padding-right: 20px;">
-            Horde: <?php echo $num_horde; ?> (<?php echo $pc_horde; ?>%)
+            <strong>Horde: </strong><?php echo $num_horde; ?> (<?php echo $pc_horde; ?>%)
         </td>
 	</tr>
 	<tr>
@@ -49,16 +49,52 @@ else
         <td align="right"><?php echo $data[8]; ?> (<?php echo $pc_troll; ?>%)</td>
         <td align="right"><img onmouseover="ddrivetip('<?php echo $lang['Troll']; ?>')" onmouseout="hideddrivetip()" src="<?php echo $Template['path']; ?>/images/icons/race/8-0.gif" alt="" /></td>
     </tr>
-    <tr>
-        <td align="left"><img onmouseover="ddrivetip('<?php echo $lang['Dranei']; ?>')" onmouseout="hideddrivetip()" src="<?php echo $Template['path']; ?>/images/icons/race/11-0.gif" alt="" /></td>
-        <td align="left"><?php echo $data[11]; ?> (<?php echo $pc_dranei; ?>%)</td>
-        <td align="right"><?php echo $data[10]; ?> (<?php echo $pc_be; ?>%)</td>
-        <td align="right"><img onmouseover="ddrivetip('<?php echo $lang['Bloodelf'];?>')" onmouseout="hideddrivetip()" src="<?php echo $Template['path']; ?>/images/icons/race/10-0.gif" alt="" /></td>
-    </tr>
 	<tr>
 		<td colspan="2" align="left" style="padding-left: 20px;"></td>
 		<td colspan="2" align="right" style="padding-right: 20px;"></td>
 	</tr>
+</table>
+
+<table width="30%">
+	<td colspan="2" align="left" style="padding-left: 20px;">
+            <strong>Total Class Statistics</strong>
+        </td>
+	<tr>
+        <td align="left"><img onmouseover="ddrivetip('<?php echo $lang['Warrior']; ?>')" onmouseout="hideddrivetip()" src="<?php echo $Template['path']; ?>/images/class/warrior.png" alt="" /></td>
+        <td align="left"><?php echo $class[1]; ?> (<?php echo $pc_warrior; ?>%)</td>
+	</tr>
+	<tr>
+        <td align="left"><img onmouseover="ddrivetip('<?php echo $lang['Paladin']; ?>')" onmouseout="hideddrivetip()" src="<?php echo $Template['path']; ?>/images/class/paladin.png" alt="" /></td>
+		<td align="left"><?php echo $class[2]; ?> (<?php echo $pc_paladin; ?>%)</td>
+    </tr>
+	<tr>
+        <td align="left"><img onmouseover="ddrivetip('<?php echo $lang['Hunter']; ?>')" onmouseout="hideddrivetip()" src="<?php echo $Template['path']; ?>/images/class/hunter.png" alt="" /></td>
+		<td align="left"><?php echo $class[3]; ?> (<?php echo $pc_hunter; ?>%)</td>
+    </tr>
+	<tr>
+        <td align="left"><img onmouseover="ddrivetip('<?php echo $lang['Rogue']; ?>')" onmouseout="hideddrivetip()" src="<?php echo $Template['path']; ?>/images/class/rogue.png" alt="" /></td>
+		<td align="left"><?php echo $class[4]; ?> (<?php echo $pc_rogue; ?>%)</td>
+    </tr>
+	<tr>
+        <td align="left"><img onmouseover="ddrivetip('<?php echo $lang['Priest']; ?>')" onmouseout="hideddrivetip()" src="<?php echo $Template['path']; ?>/images/class/priest.png" alt="" /></td>
+		<td align="left"><?php echo $class[5]; ?> (<?php echo $pc_priest; ?>%)</td>
+    </tr>
+	<tr>
+        <td align="left"><img onmouseover="ddrivetip('<?php echo $lang['Shaman']; ?>')" onmouseout="hideddrivetip()" src="<?php echo $Template['path']; ?>/images/class/shaman.png" alt="" /></td>
+		<td align="left"><?php echo $class[7]; ?> (<?php echo $pc_shaman; ?>%)</td>
+    </tr>
+	<tr>
+        <td align="left"><img onmouseover="ddrivetip('<?php echo $lang['Mage']; ?>')" onmouseout="hideddrivetip()" src="<?php echo $Template['path']; ?>/images/class/mage.png" alt="" /></td>
+		<td align="left"><?php echo $class[8]; ?> (<?php echo $pc_mage; ?>%)</td>
+    </tr>
+	<tr>
+        <td align="left"><img onmouseover="ddrivetip('<?php echo $lang['Warlock']; ?>')" onmouseout="hideddrivetip()" src="<?php echo $Template['path']; ?>/images/class/warlock.png" alt="" /></td>
+		<td align="left"><?php echo $class[9]; ?> (<?php echo $pc_warlock; ?>%)</td>
+    </tr>
+	<tr>
+        <td align="left"><img onmouseover="ddrivetip('<?php echo $lang['Druid']; ?>')" onmouseout="hideddrivetip()" src="<?php echo $Template['path']; ?>/images/class/druid.png" alt="" /></td>
+		<td align="left"><?php echo $class[11]; ?> (<?php echo $pc_druid; ?>%)</td>
+    </tr>
 </table>
 </center>
 <?php

@@ -1,9 +1,10 @@
 <?php
 /****************************************************************************/
-/*  						< MangosWeb v4 >  								*/
-/*              Copyright (C) <2017> <Mistvale.com>   		                */
-/*					  < http://www.mistvale.com >							*/
+/*  						< Emerald Sanctum >  							*/
+/*              Copyright (C) <2018> <emeraldsanctum.com>   		        */
+/*					  < https://emeraldsanctum.com >					 	*/
 /*																			*/
+/*			Origional MangosWeb v4 (C) 2017 Mistvale.com					*/
 /*			Original MangosWeb Enhanced (C) 2010-2011 KeysWow				*/
 /*			Original MangosWeb (C) 2007, Sasha, Nafe, TGM, Peec				*/
 /****************************************************************************/
@@ -355,7 +356,6 @@ class Account
                 $act_link = (string)$mwe_config['site_base_href'] . $mwe_config['site_href'] . "?p=account&amp;sub=activate&amp;id=$u_id&amp;key=$tmp_act_key";
                 $email_text  = $mwe_config['site_title'] . " Account activation<br /><br />";
                 $email_text .= 'Username: '.$params['username']."<br />";
-                $email_text .= 'Password: '.$password."<br />";
                 $email_text .= 'This is your activation key: '.$tmp_act_key."<br />";
                 $email_text .= 'CLICK HERE : '.$act_link."<br />";
                 send_email($params['email'], $mwe_config['site_title'].' - Account Activation', $email_text, false);

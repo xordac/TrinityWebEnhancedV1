@@ -1,9 +1,10 @@
 <?php
 /****************************************************************************/
-/*  						< MangosWeb v4 >  								*/
-/*              Copyright (C) <2017> <Mistvale.com>   		                */
-/*					  < http://www.mistvale.com >							*/
+/*  						< Emerald Sanctum >  							*/
+/*              Copyright (C) <2018> <emeraldsanctum.com>   		        */
+/*					  < https://emeraldsanctum.com >					 	*/
 /*																			*/
+/*			Origional MangosWeb v4 (C) 2017 Mistvale.com					*/
 /*			Original MangosWeb Enhanced (C) 2010-2011 KeysWow				*/
 /*			Original MangosWeb (C) 2007, Sasha, Nafe, TGM, Peec				*/
 /****************************************************************************/
@@ -52,10 +53,10 @@ header('Content-Type: text/html; charset=utf-8');
   <!-- Top Navbar Start -->
   <script>
 	var global_nav_lang = '<?php echo ""; ?>';
-	var site_name = '<?php echo (string)$mwe_config['site_title']; ?>';
+	var site_name = '<?php echo 'Home'; ?>';
 	var site_link = '<?php echo (string)$mwe_config['site_base_href'] . $mwe_config['site_href']; ?>';
 	var forum_link = '<?php echo $mwe_config['site_forums']; ?>';
-	var armory_link = '<?php echo $mwe_config['site_armory']; ?>';
+	var armory_link = '<?php echo $mwe_config['site_base_href']; ?>';
   </script>
   <div id="shared_topnav">
 	<script src="<?php echo $Template['path']; ?>/js/buildtopnav.js"></script>
@@ -141,44 +142,8 @@ $languages = explode(",", $mwe_config['available_lang']);
 								</div>
 								<div class="loginboxright"></div>
 							</div>
-						<div onmouseover="myshow('countrydropdown');" id="droppf" onmouseout="myhide('countrydropdown');">
-							<div style="overflow: hidden; visibility: inherit; display: block; cursor: default; background-color: transparent; background-image: url(<?php echo $Template['path']; ?>/images/countrymenu-bg.gif); height: 19px; padding-left: 9px; padding-top: 2px;"><a class="menufillertop"><?php echo $GLOBALS['user_cur_lang']; ?></a><img src="<?php echo $Template['path']; ?>/images/pixel.gif" alt=""/></div>
-							<div id="countrydropdown" style="height: auto; visibility:hidden; display: none;">
-								<?php foreach($languages as $lang_name) { ?>
-									<div OnMouseOver="this.style.backgroundColor='rgb(100, 100, 100)';" OnMouseOut="this.style.backgroundColor='rgb(29, 28, 27)';" style="cursor: pointer; background-color: rgb(29, 28, 27); color: rgb(244, 196, 0); font-family: arial,comic sans ms,technical; font-size: 12px; font-style: normal; text-align: left; background-image: url(<?php echo $Template['path']; ?>/images/bullet-trans-bg.gif); width: 136px; height: 15px; padding-left: 9px; padding-top: 0px; left: 1px; top: 1px;">
-										<a class="menuLink" style="display:block;" href="javascript:setcookie('Language', '<?php echo $lang_name;?>'); window.location.reload();"><?php echo ($GLOBALS['user_cur_lang'] == $lang_name?'&gt; '.$lang_name:$lang_name);?></a>
-									</div>
-								<?php } ?>
-							</div>
-						</div>
-						<div onmouseover="myshow('contextdropdown');" id="dropps" onmouseout="myhide('contextdropdown');">
-							<div style="overflow: hidden; visibility: inherit; display: block; cursor: default; background-color: transparent; background-image: url(<?php echo $Template['path']; ?>/images/countrymenu-bg.gif); height: 19px; padding-left: 9px; padding-top: 2px;"><a class="menufillertop">Theme:</a><img src="<?php echo $Template['path']; ?>/images/pixel.gif" alt=""/></div>
-							<div id="contextdropdown" style="height: auto; visibility:hidden; display: none;">
-							<?php
-								$tmpl_list = explode(",", $mwe_config['templates']);
-								$tkey = 0;
-								foreach($tmpl_list as $templ) 
-								{ ?>
-									<div OnMouseOver="this.style.backgroundColor='rgb(100, 100, 100)';" OnMouseOut="this.style.backgroundColor='rgb(29, 28, 27)';" style="cursor: pointer; background-color: rgb(29, 28, 27); color: rgb(244, 196, 0); font-family: arial,comic sans ms,technical; font-size: 12px; font-style: normal; text-align: left; background-image: url(<?php echo $Template['path']; ?>/images/bullet-trans-bg.gif); width: 136px; height: 15px; padding-left: 9px; padding-top: 0px; left: 1px; top: 1px;">
-										<a class="menuLink" style="display:block;" href="javascript:setcookie('cur_selected_theme', '<?php echo $tkey;?>'); window.location.reload();"><?php echo ($Template['number'] == $tkey?'&gt; '.$templ:$templ);?></a> 
-									</div>
-							<?php 	$tkey++;
-								} ?>
-							</div>
-						</div>
-						<div onmouseover="myshow('realmdropdown');" id="droppt" onmouseout="myhide('realmdropdown');">
-							<div style="overflow: hidden; visibility: inherit; display: block; cursor: default; background-color: transparent; background-image: url(<?php echo $Template['path']; ?>/images/countrymenu-bg.gif); height: 19px; padding-left: 9px; padding-top: 2px;"><a class="menufillertop">Realm:</a><img src="<?php echo $Template['path']; ?>/images/pixel.gif" alt=""/></div>
-							<div id="realmdropdown" style="height: auto; visibility:hidden; display: none;">
-							<?php
-							foreach($realms as $realm)
-							{
-									$realm_ext = $RDB->selectRow("SELECT name FROM `realmlist` WHERE `id` = '".$realm['realm_id']."'");
-?>
-								<div OnMouseOver="this.style.backgroundColor='rgb(100, 100, 100)';" OnMouseOut="this.style.backgroundColor='rgb(29, 28, 27)';" style="cursor: pointer; background-color: rgb(29, 28, 27); color: rgb(244, 196, 0); font-family: arial,comic sans ms,technical; font-size: 12px; font-style: normal; text-align: left; background-image: url(<?php echo $Template['path']; ?>/images/bullet-trans-bg.gif); width: 136px; height: 15px; padding-left: 9px; padding-top: 0px; left: 1px; top: 1px;">
-									<a class="menuLink" style="display:block;" href="javascript:setcookie('cur_selected_realm', '<?php echo $realm['realm_id'];?>'); window.location.reload();"><?php echo ($user['cur_selected_realm'] == $realm['realm_id']?'&gt; '.$realm_ext['name']:$realm_ext['name']);?></a> 
-								</div>
-							<?php } ?>
-							</div>
+
+
 						</div>
 						<div style="position: absolute; top: 0; left: 0; z-index: 20002;">
 							<div id="wow-logo">

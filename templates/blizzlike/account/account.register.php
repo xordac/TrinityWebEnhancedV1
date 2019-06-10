@@ -165,10 +165,9 @@ else
 			}
 ?>
 			<label for="r_account_type"><?php echo $lang['select_expansion']; ?>:</label>
-			<select id="r_account_type" name="r_account_type">
-				<option selected="selected" value="2"><?php echo $lang['wrath'];?></option>
-				<option value="1"><?php echo $lang['burning_crusade'];?></option>
-				<option value="0"><?php echo $lang['classic'];?></option>
+			<select id="r_account_type" name="r_account_type">	
+	<option selected="selected" value="0"><?php echo $lang['classic'];?></option>
+	<option selected="selected" value="1"><?php echo $lang['burning_crusade'];?></option>
 			</select><br /><br />
 <?php
 			if ((int)$mwe_config['reg_require_recaptcha'] == 1)

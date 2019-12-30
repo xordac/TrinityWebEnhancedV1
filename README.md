@@ -1,7 +1,7 @@
 # Welcome to MaNGOSWebV5
 This is another continuation of the MaNGOSWebV3 which was abandoned in 2011.  All original credit goes to the previous developers.
 
-You can view a live copy of the latest version used for testing by visiting **www.mistvale.com**.
+You can view a live copy of the latest version used for testing by visiting **www.wowtorn.org**.
 
 ##Features
  - Support for Mangos Based Cores (Trinity, Darkice, Azerothcore)
